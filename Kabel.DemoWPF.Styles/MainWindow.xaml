@@ -1,0 +1,40 @@
+﻿<Window x:Class="Kabel.DemoWPF.Styles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style x:Key="NormalStyle" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Verdana"/>
+            <Setter Property="FontSize" Value="10pt"/>
+        </Style>
+        <Style x:Key="HeaderStyle" TargetType="TextBlock" 
+               BasedOn="{StaticResource NormalStyle}">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="18pt"/>
+        </Style>
+        <Style x:Key="SubHeaderStyle" TargetType="TextBlock" 
+               BasedOn="{StaticResource HeaderStyle}">
+            <Setter Property="FontSize" Value="14pt"/>
+            <Setter Property="FontStyle" Value="Italic"/>
+        </Style>
+        <Style x:Key="BoldStyle" TargetType="TextBlock" 
+               BasedOn="{StaticResource NormalStyle}">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="DarkOrange"/>
+        </Style>
+        <Style x:Key="ItalicStyle" TargetType="TextBlock" 
+               BasedOn="{StaticResource BoldStyle}">
+            <Setter Property="FontStyle" Value="Italic"/>
+            <Setter Property="FontWeight" Value="Light"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Header" Style="{DynamicResource HeaderStyle}"/>
+            <TextBlock Text="SubHeader" Style="{DynamicResource SubHeaderStyle}"/>
+            <TextBlock Text="Normal" Style="{DynamicResource NormalStyle}"/>
+            <TextBlock Text="Bold" Style="{DynamicResource BoldStyle}"/>
+            <TextBlock Text="Italic" Style="{DynamicResource ItalicStyle}"/>
+        </StackPanel>
+    </Grid>
+</Window>

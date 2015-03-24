@@ -1,0 +1,11 @@
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Styles\bin\Debug\Kabel.DemoWPF.Styles.exe
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Styles\bin\Debug\Kabel.DemoWPF.Styles.pdb
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Styles\obj\Debug\MainWindow.baml
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Styles\obj\Debug\MainWindow.g.cs
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Styles\obj\Debug\App.g.cs
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Styles\obj\Debug\Kabel.DemoWPF.Styles_MarkupCompile.cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Styles\obj\Debug\Kabel.DemoWPF.Styles.g.resources
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Styles\obj\Debug\Kabel.DemoWPF.Styles.Properties.Resources.resources
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Styles\obj\Debug\Kabel.DemoWPF.Styles.csproj.GenerateResource.Cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Styles\obj\Debug\Kabel.DemoWPF.Styles.exe
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Styles\obj\Debug\Kabel.DemoWPF.Styles.pdb

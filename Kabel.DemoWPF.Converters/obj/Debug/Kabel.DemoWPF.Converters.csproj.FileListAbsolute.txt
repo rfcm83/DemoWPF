@@ -1,0 +1,14 @@
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\bin\Debug\Kabel.DemoWPF.Converters.exe
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\bin\Debug\Kabel.DemoWPF.Converters.pdb
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\obj\Debug\Kabel.DemoWPF.Converters.csprojResolveAssemblyReference.cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\obj\Debug\MainWindow.baml
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\obj\Debug\MainWindow.g.cs
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\obj\Debug\App.g.cs
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\obj\Debug\Kabel.DemoWPF.Converters_MarkupCompile.cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\obj\Debug\Kabel.DemoWPF.Converters.g.resources
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\obj\Debug\Kabel.DemoWPF.Converters.Properties.Resources.resources
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\obj\Debug\Kabel.DemoWPF.Converters.csproj.GenerateResource.Cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\obj\Debug\Kabel.DemoWPF.Converters.exe
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\obj\Debug\Kabel.DemoWPF.Converters.pdb
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\obj\Debug\Kabel.DemoWPF.Converters_MarkupCompile.lref
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Converters\obj\Debug\GeneratedInternalTypeHelper.g.cs

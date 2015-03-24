@@ -1,0 +1,12 @@
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Templates\bin\Debug\Kabel.DemoWPF.Templates.exe
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Templates\bin\Debug\Kabel.DemoWPF.Templates.pdb
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Templates\obj\Debug\Kabel.DemoWPF.Templates.csprojResolveAssemblyReference.cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Templates\obj\Debug\MainWindow.baml
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Templates\obj\Debug\MainWindow.g.cs
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Templates\obj\Debug\App.g.cs
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Templates\obj\Debug\Kabel.DemoWPF.Templates_MarkupCompile.cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Templates\obj\Debug\Kabel.DemoWPF.Templates.g.resources
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Templates\obj\Debug\Kabel.DemoWPF.Templates.Properties.Resources.resources
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Templates\obj\Debug\Kabel.DemoWPF.Templates.csproj.GenerateResource.Cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Templates\obj\Debug\Kabel.DemoWPF.Templates.exe
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Templates\obj\Debug\Kabel.DemoWPF.Templates.pdb

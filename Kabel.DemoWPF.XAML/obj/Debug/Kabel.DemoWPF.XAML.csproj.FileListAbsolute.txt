@@ -1,0 +1,12 @@
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.XAML\bin\Debug\Kabel.DemoWPF.XAML.exe
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.XAML\bin\Debug\Kabel.DemoWPF.XAML.pdb
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.XAML\obj\Debug\Kabel.DemoWPF.XAML.csprojResolveAssemblyReference.cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.XAML\obj\Debug\MainWindow.baml
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.XAML\obj\Debug\MainWindow.g.cs
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.XAML\obj\Debug\App.g.cs
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.XAML\obj\Debug\Kabel.DemoWPF.XAML_MarkupCompile.cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.XAML\obj\Debug\Kabel.DemoWPF.XAML.g.resources
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.XAML\obj\Debug\Kabel.DemoWPF.XAML.Properties.Resources.resources
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.XAML\obj\Debug\Kabel.DemoWPF.XAML.csproj.GenerateResource.Cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.XAML\obj\Debug\Kabel.DemoWPF.XAML.exe
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.XAML\obj\Debug\Kabel.DemoWPF.XAML.pdb

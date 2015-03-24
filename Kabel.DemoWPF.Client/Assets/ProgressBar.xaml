@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="Kabel.DemoWPF.Client.Assets.ProgressBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <Storyboard x:Key="StoryPBar" RepeatBehavior="Forever">
+            <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="R5">
+                <EasingThicknessKeyFrame KeyTime="0" Value="5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:1" Value="100,5,5,5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:2" Value="5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:11" Value="5"/>
+            </ThicknessAnimationUsingKeyFrames>
+            <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="R4">
+                <EasingThicknessKeyFrame KeyTime="0:0:1" Value="5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:2" Value="100,5,5,5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:3" Value="5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:9" Value="5,5,100,5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:10" Value="5"/>
+            </ThicknessAnimationUsingKeyFrames>
+            <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="R3">
+                <EasingThicknessKeyFrame KeyTime="0:0:2" Value="5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:3" Value="100,5,5,5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:4" Value="5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:8" Value="5,5,100,5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:9" Value="5"/>
+            </ThicknessAnimationUsingKeyFrames>
+            <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="R2">
+                <EasingThicknessKeyFrame KeyTime="0:0:3" Value="5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:4" Value="100,5,5,5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:5" Value="5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:7" Value="5,5,100,5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:8" Value="5"/>
+            </ThicknessAnimationUsingKeyFrames>
+            <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Margin)" Storyboard.TargetName="R1">
+                <EasingThicknessKeyFrame KeyTime="0:0:4" Value="5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:5" Value="100,5,5,5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:6" Value="5,5,100,5"/>
+                <EasingThicknessKeyFrame KeyTime="0:0:7" Value="5"/>
+            </ThicknessAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource StoryPBar}"/>
+        </EventTrigger>
+    </UserControl.Triggers>
+    <Grid Width="300" Height="30" ClipToBounds="False">
+        <StackPanel  Orientation="Horizontal" VerticalAlignment="Stretch" HorizontalAlignment="Left" ClipToBounds="False">
+            <Rectangle x:Name="R1" Fill="{StaticResource BrushEdit}" ClipToBounds="False" StrokeThickness="0" Width="10" Height="{Binding Width, RelativeSource={RelativeSource Self}}" Margin="5" />
+            <Rectangle x:Name="R2" Fill="{StaticResource BrushEdit}" ClipToBounds="False" StrokeThickness="0" Width="{Binding Width, ElementName=R1}" Height="{Binding Width, RelativeSource={RelativeSource Self}}" Margin="5" />
+            <Rectangle x:Name="R3" Fill="{StaticResource BrushEdit}" ClipToBounds="False" StrokeThickness="0" Width="{Binding Width, ElementName=R1}" Height="{Binding Width, RelativeSource={RelativeSource Self}}" Margin="5" />
+            <Rectangle x:Name="R4" Fill="{StaticResource BrushEdit}" ClipToBounds="False" StrokeThickness="0" Width="{Binding Width, ElementName=R1}" Height="{Binding Width, RelativeSource={RelativeSource Self}}" Margin="5" />
+            <Rectangle x:Name="R5" Fill="{StaticResource BrushEdit}" ClipToBounds="False" StrokeThickness="0" Width="{Binding Width, ElementName=R1}" Height="{Binding Width, RelativeSource={RelativeSource Self}}" Margin="5" />
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,33 @@
+﻿<Window x:Class="Kabel.DemoWPF.Layout.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="3"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button Grid.Column="0" Grid.Row="0" Content="StackPanel" Click="ButtonClick" />
+            <Button Grid.Column="0" Grid.Row="1" Content="WrapPanel" Click="ButtonClick" />
+            <Button Grid.Column="0" Grid.Row="2" Content="DockPanel" Click="ButtonClick" />
+            <Button Grid.Column="0" Grid.Row="3" Content="ScrollViewer" Click="ButtonClick" />
+            <Button Grid.Column="1" Grid.Row="0" Content="Grid" Click="ButtonClick" />
+            <Button Grid.Column="1" Grid.Row="1" Content="Canvas" Click="ButtonClick" />
+            <Button Grid.Column="1" Grid.Row="2" Content="Viewbox" Click="ButtonClick" />
+            <Button Grid.Column="1" Grid.Row="3" Content="UniformGrid" Click="ButtonClick" />
+        </Grid>
+    </Grid>
+</Window>

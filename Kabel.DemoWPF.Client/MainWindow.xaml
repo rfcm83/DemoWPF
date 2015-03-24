@@ -1,0 +1,148 @@
+﻿<Window x:Class="Kabel.DemoWPF.Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:v="clr-namespace:Kabel.DemoWPF.Client.Assets.Vectors"
+        xmlns:a="clr-namespace:Kabel.DemoWPF.Client.Assets"
+        xmlns:vm="clr-namespace:Kabel.DemoWPF.Client.ViewModel"
+        Title="Demo Kabel Customers" Height="600" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <vm:MainWindowVM />
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" 
+                    Background="{StaticResource BrushForeground}">
+            <Button BorderBrush="{StaticResource BrushAdd}" 
+                    IsEnabled="{Binding IsEditing, Converter={StaticResource InvertBoolConverter}}"
+                    Command="{Binding NewItem}">
+                <v:Add Style="{StaticResource ButtonsOperationsStyle}"/>
+            </Button>
+            <ToggleButton BorderBrush="{StaticResource BrushEdit}"
+                          IsChecked="{Binding IsEditing, UpdateSourceTrigger=PropertyChanged}">
+                <v:Edit Style="{StaticResource ButtonsOperationsStyle}"/>
+            </ToggleButton>
+            <Button BorderBrush="{StaticResource BrushDelete}"
+                    IsEnabled="{Binding IsAdding, Converter={StaticResource InvertBoolConverter}}"
+                    Command="{Binding DeleteItem}">
+                <v:Delete Style="{StaticResource ButtonsOperationsStyle}"/>
+            </Button>
+            <Button BorderBrush="{StaticResource BrushSave}"
+                    IsEnabled="{Binding IsEditing}"
+                    Command="{Binding SaveItem}">
+                <v:Save Style="{StaticResource ButtonsOperationsStyle}"/>
+            </Button>
+            <Button BorderBrush="{StaticResource BrushRefresh}"
+                    IsEnabled="{Binding IsEditing, Converter={StaticResource InvertBoolConverter}}"
+                    Command="{Binding RefreshItems}">
+                <v:Refresh Style="{StaticResource ButtonsOperationsStyle}"/>
+            </Button>
+        </StackPanel>
+        <DataGrid Grid.Row="1" IsReadOnly="True"
+                  SelectionMode="Single" SelectionUnit="FullRow"
+                  AutoGenerateColumns="False"
+                  ItemsSource="{Binding Customers, Mode=OneWay}"
+                  SelectedItem="{Binding Current, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="CustomerID" Binding="{Binding CustomerID}" />
+                <DataGridTextColumn Header="CompanyName" Binding="{Binding CompanyName}" />
+                <DataGridTextColumn Header="ContactName" Binding="{Binding ContactName}" />
+                <DataGridTextColumn Header="ContactTitle" Binding="{Binding ContactTitle}" />
+                <DataGridTextColumn Header="Address" Binding="{Binding Address}" />
+                <DataGridTextColumn Header="City" Binding="{Binding City}" />
+                <DataGridTextColumn Header="PostalCode" Binding="{Binding PostalCode}" />
+                <DataGridTextColumn Header="Country" Binding="{Binding Country}" />
+                <DataGridTextColumn Header="Phone" Binding="{Binding Phone}" />
+                <DataGridTextColumn Header="Fax" Binding="{Binding Fax}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Row="2" HorizontalAlignment="Center"
+              MinWidth="250" Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Column="0" Grid.Row="0" 
+                       Style="{StaticResource Labels}"
+                       Text="CustomerID:"/>
+            <TextBlock Grid.Column="0" Grid.Row="1" 
+                       Style="{StaticResource Labels}"
+                       Text="CompanyName:"/>
+            <TextBlock Grid.Column="0" Grid.Row="2" 
+                       Style="{StaticResource Labels}"
+                       Text="ContactName:"/>
+            <TextBlock Grid.Column="0" Grid.Row="3" 
+                       Style="{StaticResource Labels}"
+                       Text="ContactTitle:"/>
+            <TextBlock Grid.Column="0" Grid.Row="4" 
+                       Style="{StaticResource Labels}"
+                       Text="Address:"/>
+            <TextBlock Grid.Column="0" Grid.Row="5" 
+                       Style="{StaticResource Labels}"
+                       Text="City:"/>
+            <TextBlock Grid.Column="0" Grid.Row="6" 
+                       Style="{StaticResource Labels}"
+                       Text="PostalCode:"/>
+            <TextBlock Grid.Column="0" Grid.Row="7" 
+                       Style="{StaticResource Labels}"
+                       Text="Country:"/>
+            <TextBlock Grid.Column="0" Grid.Row="8" 
+                       Style="{StaticResource Labels}"
+                       Text="Phone:"/>
+            <TextBlock Grid.Column="0" Grid.Row="9" 
+                       Style="{StaticResource Labels}"
+                       Text="Fax:"/>
+            <TextBox Grid.Column="1" Grid.Row="0"
+                     IsEnabled="{Binding IsAdding}"
+                     Text="{Binding Current.CustomerID}"/>
+            <TextBox Grid.Column="1" Grid.Row="1" 
+                     IsReadOnly="{Binding IsEditing, Converter={StaticResource InvertBoolConverter}}"
+                     Text="{Binding Current.CompanyName}"/>
+            <TextBox Grid.Column="1" Grid.Row="2" 
+                     IsReadOnly="{Binding IsEditing, Converter={StaticResource InvertBoolConverter}}"
+                     Text="{Binding Current.ContactName}"/>
+            <TextBox Grid.Column="1" Grid.Row="3" 
+                     IsReadOnly="{Binding IsEditing, Converter={StaticResource InvertBoolConverter}}"
+                     Text="{Binding Current.ContactTitle}"/>
+            <TextBox Grid.Column="1" Grid.Row="4" 
+                     IsReadOnly="{Binding IsEditing, Converter={StaticResource InvertBoolConverter}}"
+                     Text="{Binding Current.Address}"/>
+            <TextBox Grid.Column="1" Grid.Row="5" 
+                     IsReadOnly="{Binding IsEditing, Converter={StaticResource InvertBoolConverter}}"
+                     Text="{Binding Current.City}"/>
+            <TextBox Grid.Column="1" Grid.Row="6" 
+                     IsReadOnly="{Binding IsEditing, Converter={StaticResource InvertBoolConverter}}"
+                     Text="{Binding Current.PostalCode}"/>
+            <TextBox Grid.Column="1" Grid.Row="7"
+                     IsReadOnly="{Binding IsEditing, Converter={StaticResource InvertBoolConverter}}"
+                     Text="{Binding Current.Country}"/>
+            <TextBox Grid.Column="1" Grid.Row="8" 
+                     IsReadOnly="{Binding IsEditing, Converter={StaticResource InvertBoolConverter}}"
+                     Text="{Binding Current.Phone}"/>
+            <TextBox Grid.Column="1" Grid.Row="9" 
+                     IsReadOnly="{Binding IsEditing, Converter={StaticResource InvertBoolConverter}}"
+                     Text="{Binding Current.Fax}"/>
+        </Grid>
+        <Grid Grid.Row="0" Grid.RowSpan="3"
+              Background="{StaticResource BrushBusyBackground}"
+              Visibility="{Binding IsBusy, Converter={StaticResource Bool2VisibilityConverter}}">
+            <a:ProgressBar/>
+        </Grid>
+    </Grid>
+</Window>

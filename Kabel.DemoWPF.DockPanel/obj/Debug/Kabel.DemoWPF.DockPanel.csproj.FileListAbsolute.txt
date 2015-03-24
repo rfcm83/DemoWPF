@@ -1,0 +1,12 @@
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.DockPanel\bin\Debug\Kabel.DemoWPF.DockPanel.exe
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.DockPanel\bin\Debug\Kabel.DemoWPF.DockPanel.pdb
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.DockPanel\obj\Debug\Kabel.DemoWPF.DockPanel.csprojResolveAssemblyReference.cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.DockPanel\obj\Debug\MainWindow.baml
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.DockPanel\obj\Debug\MainWindow.g.cs
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.DockPanel\obj\Debug\App.g.cs
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.DockPanel\obj\Debug\Kabel.DemoWPF.DockPanel_MarkupCompile.cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.DockPanel\obj\Debug\Kabel.DemoWPF.DockPanel.g.resources
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.DockPanel\obj\Debug\Kabel.DemoWPF.DockPanel.Properties.Resources.resources
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.DockPanel\obj\Debug\Kabel.DemoWPF.DockPanel.csproj.GenerateResource.Cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.DockPanel\obj\Debug\Kabel.DemoWPF.DockPanel.exe
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.DockPanel\obj\Debug\Kabel.DemoWPF.DockPanel.pdb

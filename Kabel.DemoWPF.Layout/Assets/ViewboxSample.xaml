@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="Kabel.DemoWPF.Layout.Assets.ViewboxSample"
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+			 mc:Ignorable="d" 
+			 d:DesignHeight="300" d:DesignWidth="300">
+	<Viewbox Stretch="Fill">
+		<Grid Height="300" Width="300">
+			<Image Margin="7.5,29,148.5,127" 
+				   Source="Images/Firefox.png" 
+				   RenderTransformOrigin="0.5,0.5">
+				<Image.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform Angle="-38.833"/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</Image.RenderTransform>
+			</Image>
+			<Image Margin="134.5,10,45.5,170" 
+				   Source="Images/Google Chrome.png" />
+			<Image Margin="155.5,107.75,10,57.75" 
+				   Source="Images/Internet Explorer 10.png" />
+			<Image Margin="21.833,161.333,149.5,10" 
+				   Source="Images/Safari.png" />
+		</Grid>
+	</Viewbox>
+</UserControl>

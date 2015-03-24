@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Kabel.DemoWPF.WCF.Services" CodeBehind="Services.svc.cs" %>

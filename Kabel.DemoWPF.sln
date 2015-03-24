@@ -1,0 +1,263 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 XAML", "1 XAML", "{D19C5603-0E5F-4CF8-BDDB-0C918CFF0E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.XAML", "Kabel.DemoWPF.XAML\Kabel.DemoWPF.XAML.csproj", "{AAF6287E-732C-45D1-948C-A686DEEC5A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.NoXAML", "Kabel.DemoWPF.NoXAML\Kabel.DemoWPF.NoXAML.csproj", "{225957EA-C2B6-4246-ACF0-A24FF83B0028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Layout", "2 Layout", "{51DC053F-D1D7-4640-AC80-B13B4D2BF34E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.Layout", "Kabel.DemoWPF.Layout\Kabel.DemoWPF.Layout.csproj", "{BAA988E1-F86C-47B9-9C24-B553D5498010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.DockPanel", "Kabel.DemoWPF.DockPanel\Kabel.DemoWPF.DockPanel.csproj", "{26F914CF-440A-4513-92A8-43199E5D88BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Controles", "3 Controles", "{62477B75-3DA6-40BD-A6D3-985A6F3DE524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.CustomControl", "Kabel.DemoWPF.CustomControl\Kabel.DemoWPF.CustomControl.csproj", "{BE2F9D78-1200-4C38-BDAB-E2AC6C9F9264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.Graphics", "Kabel.DemoWPF.Graphics\Kabel.DemoWPF.Graphics.csproj", "{E6ED5968-3394-4FEF-A66E-B310BD232EE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Resources", "4 Resources", "{D0C148BD-2972-4300-9F4F-4B02C3CFF00E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.Resources", "Kabel.DemoWPF.Resources\Kabel.DemoWPF.Resources.csproj", "{CEB9A7C6-0279-4882-8C76-88FFE0D57578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.Styles", "Kabel.DemoWPF.Styles\Kabel.DemoWPF.Styles.csproj", "{A85D425B-EF6D-452A-A124-65744B83726B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.DataTemplates", "Kabel.DemoWPF.DataTemplates\Kabel.DemoWPF.DataTemplates.csproj", "{A7A0C266-B7EA-4B80-8969-382A0048B504}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2ED0CE62-E683-48DE-A992-E7926D118A02} = {2ED0CE62-E683-48DE-A992-E7926D118A02}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo App", "Demo App", "{B93FECE0-CE33-4B6D-900B-C61087150FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.Model", "Kabel.DemoWPF.Model\Kabel.DemoWPF.Model.csproj", "{541D24AD-12EA-4E85-A8FC-A71434BDF190}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Infraestructure", "3 Infraestructure", "{876B35C7-0B63-4043-95D4-C493FE29EA25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Web Services", "2 Web Services", "{17A609D5-47DD-48D8-9AD5-E879D52032AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Client", "1 Client", "{AD0F2E82-E4D7-4306-84B7-A1213775497A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.WCF", "Kabel.DemoWPF.WCF\Kabel.DemoWPF.WCF.csproj", "{2ED0CE62-E683-48DE-A992-E7926D118A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.Proxy", "Kabel.DemoWPF.Proxy\Kabel.DemoWPF.Proxy.csproj", "{C4329F8D-0BBA-4205-954F-00FF1C90527E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2ED0CE62-E683-48DE-A992-E7926D118A02} = {2ED0CE62-E683-48DE-A992-E7926D118A02}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.Templates", "Kabel.DemoWPF.Templates\Kabel.DemoWPF.Templates.csproj", "{E89EEC75-0458-4D46-8CF1-F3D7FF4A2ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.Storyboards", "Kabel.DemoWPF.Storyboards\Kabel.DemoWPF.Storyboards.csproj", "{29FCC9D8-4259-4482-9353-462F2364D505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.Dictionaries", "Kabel.DemoWPF.Dictionaries\Kabel.DemoWPF.Dictionaries.csproj", "{3E44EA2A-6EB9-4EAB-915E-8303E08FFC05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Binding", "5 Binding", "{B3E39876-AD32-45DB-A4DB-7521BE626400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.Binding", "Kabel.DemoWPF.Binding\Kabel.DemoWPF.Binding.csproj", "{64AB0BEB-99A2-4B85-BA56-5848F8B2CF3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.Converters", "Kabel.DemoWPF.Converters\Kabel.DemoWPF.Converters.csproj", "{4DA7290C-2E6F-4E84-96B3-6D12432DBC40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 Converters", "6 Converters", "{A33137C0-C7D3-47C5-A8BC-AA48B2CB06B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Tests", "4 Tests", "{93C03B24-E8D2-4C85-8B8C-E658AF28EB0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.WCFTests", "Kabel.DemoWPF.WCFTests\Kabel.DemoWPF.WCFTests.csproj", "{E9FDC427-E174-4081-A927-1D907150F60B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabel.DemoWPF.Client", "Kabel.DemoWPF.Client\Kabel.DemoWPF.Client.csproj", "{A3FD4863-04FF-4987-818F-4CC17D67A746}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 20
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rfcm83.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Kabel.DemoWPF.XAML\\Kabel.DemoWPF.XAML.csproj
+		SccProjectTopLevelParentUniqueName1 = Kabel.DemoWPF.sln
+		SccProjectName1 = Kabel.DemoWPF.XAML
+		SccLocalPath1 = Kabel.DemoWPF.XAML
+		SccProjectUniqueName2 = Kabel.DemoWPF.NoXAML\\Kabel.DemoWPF.NoXAML.csproj
+		SccProjectTopLevelParentUniqueName2 = Kabel.DemoWPF.sln
+		SccProjectName2 = Kabel.DemoWPF.NoXAML
+		SccLocalPath2 = Kabel.DemoWPF.NoXAML
+		SccProjectUniqueName3 = Kabel.DemoWPF.Layout\\Kabel.DemoWPF.Layout.csproj
+		SccProjectTopLevelParentUniqueName3 = Kabel.DemoWPF.sln
+		SccProjectName3 = Kabel.DemoWPF.Layout
+		SccLocalPath3 = Kabel.DemoWPF.Layout
+		SccProjectUniqueName4 = Kabel.DemoWPF.DockPanel\\Kabel.DemoWPF.DockPanel.csproj
+		SccProjectTopLevelParentUniqueName4 = Kabel.DemoWPF.sln
+		SccProjectName4 = Kabel.DemoWPF.DockPanel
+		SccLocalPath4 = Kabel.DemoWPF.DockPanel
+		SccProjectUniqueName5 = Kabel.DemoWPF.CustomControl\\Kabel.DemoWPF.CustomControl.csproj
+		SccProjectTopLevelParentUniqueName5 = Kabel.DemoWPF.sln
+		SccProjectName5 = Kabel.DemoWPF.CustomControl
+		SccLocalPath5 = Kabel.DemoWPF.CustomControl
+		SccProjectUniqueName6 = Kabel.DemoWPF.Graphics\\Kabel.DemoWPF.Graphics.csproj
+		SccProjectTopLevelParentUniqueName6 = Kabel.DemoWPF.sln
+		SccProjectName6 = Kabel.DemoWPF.Graphics
+		SccLocalPath6 = Kabel.DemoWPF.Graphics
+		SccProjectUniqueName7 = Kabel.DemoWPF.Resources\\Kabel.DemoWPF.Resources.csproj
+		SccProjectTopLevelParentUniqueName7 = Kabel.DemoWPF.sln
+		SccProjectName7 = Kabel.DemoWPF.Resources
+		SccLocalPath7 = Kabel.DemoWPF.Resources
+		SccProjectUniqueName8 = Kabel.DemoWPF.Styles\\Kabel.DemoWPF.Styles.csproj
+		SccProjectTopLevelParentUniqueName8 = Kabel.DemoWPF.sln
+		SccProjectName8 = Kabel.DemoWPF.Styles
+		SccLocalPath8 = Kabel.DemoWPF.Styles
+		SccProjectUniqueName9 = Kabel.DemoWPF.DataTemplates\\Kabel.DemoWPF.DataTemplates.csproj
+		SccProjectTopLevelParentUniqueName9 = Kabel.DemoWPF.sln
+		SccProjectName9 = Kabel.DemoWPF.DataTemplates
+		SccLocalPath9 = Kabel.DemoWPF.DataTemplates
+		SccProjectUniqueName10 = Kabel.DemoWPF.Model\\Kabel.DemoWPF.Model.csproj
+		SccProjectTopLevelParentUniqueName10 = Kabel.DemoWPF.sln
+		SccProjectName10 = Kabel.DemoWPF.Model
+		SccLocalPath10 = Kabel.DemoWPF.Model
+		SccProjectUniqueName11 = Kabel.DemoWPF.WCF\\Kabel.DemoWPF.WCF.csproj
+		SccProjectTopLevelParentUniqueName11 = Kabel.DemoWPF.sln
+		SccProjectName11 = Kabel.DemoWPF.WCF
+		SccLocalPath11 = Kabel.DemoWPF.WCF
+		SccProjectUniqueName12 = Kabel.DemoWPF.Proxy\\Kabel.DemoWPF.Proxy.csproj
+		SccProjectTopLevelParentUniqueName12 = Kabel.DemoWPF.sln
+		SccProjectName12 = Kabel.DemoWPF.Proxy
+		SccLocalPath12 = Kabel.DemoWPF.Proxy
+		SccProjectUniqueName13 = Kabel.DemoWPF.Templates\\Kabel.DemoWPF.Templates.csproj
+		SccProjectTopLevelParentUniqueName13 = Kabel.DemoWPF.sln
+		SccProjectName13 = Kabel.DemoWPF.Templates
+		SccLocalPath13 = Kabel.DemoWPF.Templates
+		SccProjectUniqueName14 = Kabel.DemoWPF.Storyboards\\Kabel.DemoWPF.Storyboards.csproj
+		SccProjectTopLevelParentUniqueName14 = Kabel.DemoWPF.sln
+		SccProjectName14 = Kabel.DemoWPF.Storyboards
+		SccLocalPath14 = Kabel.DemoWPF.Storyboards
+		SccProjectUniqueName15 = Kabel.DemoWPF.Dictionaries\\Kabel.DemoWPF.Dictionaries.csproj
+		SccProjectTopLevelParentUniqueName15 = Kabel.DemoWPF.sln
+		SccProjectName15 = Kabel.DemoWPF.Dictionaries
+		SccLocalPath15 = Kabel.DemoWPF.Dictionaries
+		SccProjectUniqueName16 = Kabel.DemoWPF.Binding\\Kabel.DemoWPF.Binding.csproj
+		SccProjectTopLevelParentUniqueName16 = Kabel.DemoWPF.sln
+		SccProjectName16 = Kabel.DemoWPF.Binding
+		SccLocalPath16 = Kabel.DemoWPF.Binding
+		SccProjectUniqueName17 = Kabel.DemoWPF.Converters\\Kabel.DemoWPF.Converters.csproj
+		SccProjectTopLevelParentUniqueName17 = Kabel.DemoWPF.sln
+		SccProjectName17 = Kabel.DemoWPF.Converters
+		SccLocalPath17 = Kabel.DemoWPF.Converters
+		SccProjectUniqueName18 = Kabel.DemoWPF.WCFTests\\Kabel.DemoWPF.WCFTests.csproj
+		SccProjectTopLevelParentUniqueName18 = Kabel.DemoWPF.sln
+		SccProjectName18 = Kabel.DemoWPF.WCFTests
+		SccLocalPath18 = Kabel.DemoWPF.WCFTests
+		SccProjectUniqueName19 = Kabel.DemoWPF.Client\\Kabel.DemoWPF.Client.csproj
+		SccProjectTopLevelParentUniqueName19 = Kabel.DemoWPF.sln
+		SccProjectName19 = Kabel.DemoWPF.Client
+		SccLocalPath19 = Kabel.DemoWPF.Client
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAF6287E-732C-45D1-948C-A686DEEC5A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF6287E-732C-45D1-948C-A686DEEC5A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF6287E-732C-45D1-948C-A686DEEC5A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF6287E-732C-45D1-948C-A686DEEC5A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225957EA-C2B6-4246-ACF0-A24FF83B0028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225957EA-C2B6-4246-ACF0-A24FF83B0028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225957EA-C2B6-4246-ACF0-A24FF83B0028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225957EA-C2B6-4246-ACF0-A24FF83B0028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA988E1-F86C-47B9-9C24-B553D5498010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA988E1-F86C-47B9-9C24-B553D5498010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA988E1-F86C-47B9-9C24-B553D5498010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA988E1-F86C-47B9-9C24-B553D5498010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F914CF-440A-4513-92A8-43199E5D88BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F914CF-440A-4513-92A8-43199E5D88BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F914CF-440A-4513-92A8-43199E5D88BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F914CF-440A-4513-92A8-43199E5D88BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2F9D78-1200-4C38-BDAB-E2AC6C9F9264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2F9D78-1200-4C38-BDAB-E2AC6C9F9264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2F9D78-1200-4C38-BDAB-E2AC6C9F9264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2F9D78-1200-4C38-BDAB-E2AC6C9F9264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6ED5968-3394-4FEF-A66E-B310BD232EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6ED5968-3394-4FEF-A66E-B310BD232EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6ED5968-3394-4FEF-A66E-B310BD232EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6ED5968-3394-4FEF-A66E-B310BD232EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB9A7C6-0279-4882-8C76-88FFE0D57578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB9A7C6-0279-4882-8C76-88FFE0D57578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB9A7C6-0279-4882-8C76-88FFE0D57578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB9A7C6-0279-4882-8C76-88FFE0D57578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85D425B-EF6D-452A-A124-65744B83726B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85D425B-EF6D-452A-A124-65744B83726B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85D425B-EF6D-452A-A124-65744B83726B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85D425B-EF6D-452A-A124-65744B83726B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A0C266-B7EA-4B80-8969-382A0048B504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A0C266-B7EA-4B80-8969-382A0048B504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A0C266-B7EA-4B80-8969-382A0048B504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A0C266-B7EA-4B80-8969-382A0048B504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541D24AD-12EA-4E85-A8FC-A71434BDF190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541D24AD-12EA-4E85-A8FC-A71434BDF190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541D24AD-12EA-4E85-A8FC-A71434BDF190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541D24AD-12EA-4E85-A8FC-A71434BDF190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED0CE62-E683-48DE-A992-E7926D118A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED0CE62-E683-48DE-A992-E7926D118A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED0CE62-E683-48DE-A992-E7926D118A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED0CE62-E683-48DE-A992-E7926D118A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4329F8D-0BBA-4205-954F-00FF1C90527E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4329F8D-0BBA-4205-954F-00FF1C90527E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4329F8D-0BBA-4205-954F-00FF1C90527E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4329F8D-0BBA-4205-954F-00FF1C90527E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89EEC75-0458-4D46-8CF1-F3D7FF4A2ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89EEC75-0458-4D46-8CF1-F3D7FF4A2ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89EEC75-0458-4D46-8CF1-F3D7FF4A2ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89EEC75-0458-4D46-8CF1-F3D7FF4A2ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29FCC9D8-4259-4482-9353-462F2364D505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FCC9D8-4259-4482-9353-462F2364D505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FCC9D8-4259-4482-9353-462F2364D505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FCC9D8-4259-4482-9353-462F2364D505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E44EA2A-6EB9-4EAB-915E-8303E08FFC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E44EA2A-6EB9-4EAB-915E-8303E08FFC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E44EA2A-6EB9-4EAB-915E-8303E08FFC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E44EA2A-6EB9-4EAB-915E-8303E08FFC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64AB0BEB-99A2-4B85-BA56-5848F8B2CF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64AB0BEB-99A2-4B85-BA56-5848F8B2CF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64AB0BEB-99A2-4B85-BA56-5848F8B2CF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64AB0BEB-99A2-4B85-BA56-5848F8B2CF3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DA7290C-2E6F-4E84-96B3-6D12432DBC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA7290C-2E6F-4E84-96B3-6D12432DBC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA7290C-2E6F-4E84-96B3-6D12432DBC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA7290C-2E6F-4E84-96B3-6D12432DBC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9FDC427-E174-4081-A927-1D907150F60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9FDC427-E174-4081-A927-1D907150F60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9FDC427-E174-4081-A927-1D907150F60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9FDC427-E174-4081-A927-1D907150F60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FD4863-04FF-4987-818F-4CC17D67A746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FD4863-04FF-4987-818F-4CC17D67A746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FD4863-04FF-4987-818F-4CC17D67A746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FD4863-04FF-4987-818F-4CC17D67A746}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAF6287E-732C-45D1-948C-A686DEEC5A7B} = {D19C5603-0E5F-4CF8-BDDB-0C918CFF0E15}
+		{225957EA-C2B6-4246-ACF0-A24FF83B0028} = {D19C5603-0E5F-4CF8-BDDB-0C918CFF0E15}
+		{BAA988E1-F86C-47B9-9C24-B553D5498010} = {51DC053F-D1D7-4640-AC80-B13B4D2BF34E}
+		{26F914CF-440A-4513-92A8-43199E5D88BA} = {51DC053F-D1D7-4640-AC80-B13B4D2BF34E}
+		{BE2F9D78-1200-4C38-BDAB-E2AC6C9F9264} = {62477B75-3DA6-40BD-A6D3-985A6F3DE524}
+		{E6ED5968-3394-4FEF-A66E-B310BD232EE9} = {62477B75-3DA6-40BD-A6D3-985A6F3DE524}
+		{CEB9A7C6-0279-4882-8C76-88FFE0D57578} = {D0C148BD-2972-4300-9F4F-4B02C3CFF00E}
+		{A85D425B-EF6D-452A-A124-65744B83726B} = {D0C148BD-2972-4300-9F4F-4B02C3CFF00E}
+		{A7A0C266-B7EA-4B80-8969-382A0048B504} = {D0C148BD-2972-4300-9F4F-4B02C3CFF00E}
+		{E89EEC75-0458-4D46-8CF1-F3D7FF4A2ADB} = {D0C148BD-2972-4300-9F4F-4B02C3CFF00E}
+		{29FCC9D8-4259-4482-9353-462F2364D505} = {D0C148BD-2972-4300-9F4F-4B02C3CFF00E}
+		{3E44EA2A-6EB9-4EAB-915E-8303E08FFC05} = {D0C148BD-2972-4300-9F4F-4B02C3CFF00E}
+		{876B35C7-0B63-4043-95D4-C493FE29EA25} = {B93FECE0-CE33-4B6D-900B-C61087150FBF}
+		{17A609D5-47DD-48D8-9AD5-E879D52032AB} = {B93FECE0-CE33-4B6D-900B-C61087150FBF}
+		{AD0F2E82-E4D7-4306-84B7-A1213775497A} = {B93FECE0-CE33-4B6D-900B-C61087150FBF}
+		{93C03B24-E8D2-4C85-8B8C-E658AF28EB0A} = {B93FECE0-CE33-4B6D-900B-C61087150FBF}
+		{541D24AD-12EA-4E85-A8FC-A71434BDF190} = {876B35C7-0B63-4043-95D4-C493FE29EA25}
+		{2ED0CE62-E683-48DE-A992-E7926D118A02} = {17A609D5-47DD-48D8-9AD5-E879D52032AB}
+		{C4329F8D-0BBA-4205-954F-00FF1C90527E} = {AD0F2E82-E4D7-4306-84B7-A1213775497A}
+		{A3FD4863-04FF-4987-818F-4CC17D67A746} = {AD0F2E82-E4D7-4306-84B7-A1213775497A}
+		{64AB0BEB-99A2-4B85-BA56-5848F8B2CF3F} = {B3E39876-AD32-45DB-A4DB-7521BE626400}
+		{4DA7290C-2E6F-4E84-96B3-6D12432DBC40} = {A33137C0-C7D3-47C5-A8BC-AA48B2CB06B0}
+		{E9FDC427-E174-4081-A927-1D907150F60B} = {93C03B24-E8D2-4C85-8B8C-E658AF28EB0A}
+	EndGlobalSection
+EndGlobal

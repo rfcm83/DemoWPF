@@ -1,0 +1,35 @@
+﻿<Window x:Class="Kabel.DemoWPF.DockPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+
+    <DockPanel>
+        <Button Background="AliceBlue" DockPanel.Dock="Top" Content="Top"/>
+        <Button Background="AliceBlue" DockPanel.Dock="Bottom" Content="Bottom"/>
+        <Button Background="LightBlue" DockPanel.Dock="Left" >
+            <TextBlock Text="Left" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+        </Button>
+        <Button Background="LightGoldenrodYellow" DockPanel.Dock="Right">
+            <TextBlock Text="Right" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+        </Button>        
+        <Button Background="White" Content="Principal"/>
+    </DockPanel>
+</Window>

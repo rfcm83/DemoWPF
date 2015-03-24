@@ -1,0 +1,6 @@
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Proxy\bin\Debug\Kabel.DemoWPF.Proxy.dll.config
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Proxy\bin\Debug\Kabel.DemoWPF.Proxy.dll
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Proxy\bin\Debug\Kabel.DemoWPF.Proxy.pdb
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Proxy\obj\Debug\Kabel.DemoWPF.Proxy.csprojResolveAssemblyReference.cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Proxy\obj\Debug\Kabel.DemoWPF.Proxy.dll
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.Proxy\obj\Debug\Kabel.DemoWPF.Proxy.pdb

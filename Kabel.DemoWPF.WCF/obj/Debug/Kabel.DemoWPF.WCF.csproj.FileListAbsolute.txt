@@ -1,0 +1,11 @@
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.WCF\bin\Kabel.DemoWPF.WCF.dll
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.WCF\bin\Kabel.DemoWPF.WCF.pdb
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.WCF\bin\EntityFramework.dll
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.WCF\bin\EntityFramework.SqlServer.dll
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.WCF\bin\Kabel.DemoWPF.Model.dll
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.WCF\bin\Kabel.DemoWPF.Model.pdb
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.WCF\bin\EntityFramework.xml
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.WCF\bin\EntityFramework.SqlServer.xml
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.WCF\obj\Debug\Kabel.DemoWPF.WCF.csprojResolveAssemblyReference.cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.WCF\obj\Debug\Kabel.DemoWPF.WCF.dll
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.WCF\obj\Debug\Kabel.DemoWPF.WCF.pdb

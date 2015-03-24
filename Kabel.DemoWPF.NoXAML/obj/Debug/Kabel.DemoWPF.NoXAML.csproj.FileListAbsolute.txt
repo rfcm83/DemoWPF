@@ -1,0 +1,8 @@
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.NoXAML\bin\Debug\Kabel.DemoWPF.NoXAML.exe
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.NoXAML\bin\Debug\Kabel.DemoWPF.NoXAML.pdb
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.NoXAML\obj\Debug\Kabel.DemoWPF.NoXAML.csprojResolveAssemblyReference.cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.NoXAML\obj\Debug\Kabel.DemoWPF.NoXAML.Form1.resources
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.NoXAML\obj\Debug\Kabel.DemoWPF.NoXAML.Properties.Resources.resources
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.NoXAML\obj\Debug\Kabel.DemoWPF.NoXAML.csproj.GenerateResource.Cache
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.NoXAML\obj\Debug\Kabel.DemoWPF.NoXAML.exe
+C:\Users\RFernandez\Projects\Code\2015\Kabel.DemoWPF\Kabel.DemoWPF.NoXAML\obj\Debug\Kabel.DemoWPF.NoXAML.pdb
