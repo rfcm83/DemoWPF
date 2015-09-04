@@ -1,0 +1,20 @@
+﻿<Window x:Class="Kabel.DemoWPF.BindingFonts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <ComboBox x:Name="CbFonts" Grid.Row="0" HorizontalAlignment="Center" 
+                  ItemsSource="{Binding Source={x:Static Fonts.SystemFontFamilies}}">
+            <ComboBox.ItemContainerStyle>
+                <Style TargetType="ComboBoxItem">
+                    <Setter Property="FontFamily" Value="{Binding}"/>
+                </Style>
+            </ComboBox.ItemContainerStyle>
+        </ComboBox>
+        <TextBox Grid.Row="1" Margin="3" FontFamily="{Binding SelectedItem, ElementName=CbFonts}" />
+    </Grid>
+</Window>
