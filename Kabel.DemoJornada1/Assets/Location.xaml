@@ -1,0 +1,102 @@
+﻿<UserControl x:Class="Kabel.DemoJornada1.Assets.Location"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+	<UserControl.Resources>
+		<Storyboard x:Key="SbAnimation">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBlock">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBlock1">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBlock2">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+	<UserControl.Triggers>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+			<BeginStoryboard Storyboard="{StaticResource SbAnimation}"/>
+		</EventTrigger>
+	</UserControl.Triggers>
+    <Grid>
+        <!--<Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.Resources>
+                <Color x:Key="ColorWhite">#FFFAFAFA</Color>
+                <Color x:Key="ColorBlack">#FF0A0A0A</Color>
+
+                <SolidColorBrush x:Key="BrushWhite" Color="{StaticResource ColorWhite}"/>
+                <SolidColorBrush x:Key="BrushBlack" Color="{StaticResource ColorBlack}"/>
+
+                <Style TargetType="TextBlock">
+                    <Setter Property="Foreground" Value="{StaticResource BrushBlack}"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="FontSize" Value="16pt"/>
+                </Style>
+            </Grid.Resources>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Grid.Row="0" Text="Localidad:"/>
+            <TextBlock Grid.Column="0" Grid.Row="1" Text="Provincia:"/>
+            <TextBlock Grid.Column="0" Grid.Row="2" Text="País:"/>
+            <TextBox Grid.Column="1" Grid.Row="0"  />
+            <ComboBox Grid.Column="1" Grid.Row="1"/>
+            <ComboBox Grid.Column="1" Grid.Row="2"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Grid.Row="0" Text="Localidad:"/>
+            <TextBlock Grid.Column="0" Grid.Row="1" Text="Provincia:"/>
+            <TextBlock Grid.Column="0" Grid.Row="2" Text="País:"/>
+            <TextBox Grid.Column="1" Grid.Row="0"  />
+            <ComboBox Grid.Column="1" Grid.Row="1"/>
+            <ComboBox Grid.Column="1" Grid.Row="2"/>
+        </Grid>-->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="textBlock" Grid.Column="0" Grid.Row="0" Text="Localidad:"/>
+            <TextBlock x:Name="textBlock1" Grid.Column="0" Grid.Row="1" Text="Provincia:"/>
+            <TextBlock x:Name="textBlock2" Grid.Column="0" Grid.Row="2" Text="País:"/>
+            <TextBox Grid.Column="1" Grid.Row="0"  />
+            <ComboBox Grid.Column="1" Grid.Row="1"/>
+            <ComboBox Grid.Column="1" Grid.Row="2"/>
+        </Grid>
+    </Grid>
+
+</UserControl>
