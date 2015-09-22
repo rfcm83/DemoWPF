@@ -1,0 +1,6 @@
+﻿<Window x:Class="Kabel.DemoWPF3.WebViewer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WebViewer" Height="300" Width="300">
+    <Frame Source="{Binding Url}"/>
+</Window>
